@@ -8,7 +8,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Paul Kamer"]
   s.email       = ["paulkamer@gmail.com"]
-  s.summary     = %q{}
+  s.summary     = %q{Support including a Leaflet map in a Formtastic form.}
+  s.description = %q{Support including a Leaflet map in a Formtastic form. Included Leaflet and Leaflet.draw}
   s.license     = "MIT"
 
   s.add_dependency('formtastic', ["~> 3.0"])
